@@ -12,37 +12,35 @@
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(74, 73, 73);
         text-align: justify;
-        /* Removido display: flex, align-items: center, justify-content: center do body */
-        /* Para permitir que o conteúdo role normalmente em documentos longos */
         margin: 0;
-        padding: 20px; /* Adiciona padding ao redor do corpo para espaçamento geral */
+        padding: 20px;
         font-size: 18px;
-        line-height: 1.6; /* Melhorar legibilidade para textos longos */
+        line-height: 1.6;
     }
     main {
         background-color: white;
-        padding: 30px; /* Aumentado padding para mais espaço interno */
+        padding: 30px;
         border-radius: 10px;
         border: solid 3px #981310;
-        min-width: 280px; /* Ajustado min-width */
-        max-width: 800px; /* Aumentado max-width para melhor leitura em telas maiores */
-        margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior/inferior */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra para dar profundidade */
+        min-width: 280px;
+        max-width: 800px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     h1 {
         color: #981310;
         text-align: center;
-        font-family: 'Arial Black', Gadget, sans-serif; /* Fonte mais impactante para o título principal */
-        font-size: 2.5em; /* Aumentar o tamanho do título */
+        font-family: 'Arial Black', Gadget, sans-serif;
+        font-size: 2.5em;
         margin-bottom: 0.5em;
     }
     h2 { /* Estilo para os títulos dos itens (I., II., etc.) */
         color: #981310;
         font-family: 'Arial Black', Gadget, sans-serif;
         font-size: 1.5em;
-        margin-top: 2em; /* Mais espaço acima dos títulos das seções */
+        margin-top: 2em;
         margin-bottom: 0.8em;
-        border-bottom: 2px solid #ddd; /* Linha discreta para separar seções */
+        border-bottom: 2px solid #ddd;
         padding-bottom: 5px;
     }
     h3 { /* Para os títulos dos planos dentro de 5.7 */
@@ -53,42 +51,42 @@
         margin-bottom: 0.5em;
     }
     p {
-        margin-bottom: 1em; /* Espaçamento entre parágrafos */
+        margin-bottom: 1em;
     }
     ul {
-        list-style-type: disc; /* Garante que listas tenham marcadores */
-        padding-left: 25px; /* Ajustar recuo para listas */
+        list-style-type: disc;
+        padding-left: 25px;
         margin-top: 0.8em;
         margin-bottom: 0.8em;
     }
-    ol { /* Para sub-itens dentro de listas, se for o caso */
-        list-style-type: lower-alpha; /* Ex: a., b., c. */
+    ol {
+        list-style-type: lower-alpha;
         padding-left: 25px;
         margin-top: 0.8em;
         margin-bottom: 0.8em;
     }
     li {
-        margin-bottom: 0.5em; /* Espaçamento entre itens de lista */
+        margin-bottom: 0.5em;
     }
     li > ul, li > ol {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
     strong {
-        color: #6a0e0e; /* Cor ligeiramente diferente para negritos para destaque extra */
+        color: black; /* Alterado para preto para suavizar a leitura */
     }
     a {
-        color: #007bff; /* Cor padrão para links */
-        text-decoration: none; /* Remover sublinhado padrão */
+        color: #007bff;
+        text-decoration: none;
     }
     a:hover {
-        text-decoration: underline; /* Sublinhar ao passar o mouse */
+        text-decoration: underline;
     }
     img {
-        max-width: 150px; /* Reduzir um pouco o tamanho da imagem da logo */
+        max-width: 150px;
         height: auto;
         display: block;
-        margin: 30px auto 10px auto; /* Espaço maior acima da imagem */
+        margin: 30px auto 10px auto;
     }
 </style>
 </head>
@@ -170,6 +168,7 @@
                     <li><strong>Recebimento de Interação:</strong> Podem receber mensagens e solicitações de conexão de usuários de todos os planos (<strong>Basic</strong>, <strong>Premium</strong>, <strong>Gold</strong> e <strong>Platinum</strong>).</li>
                 </ul>
             </li>
+            <!--
             <li>
                 <h3><strong>Plano Platinum:</strong></h3>
                 <ul>
@@ -179,8 +178,9 @@
                     <li><strong>Acesso Exclusivo:</strong> A entrada no <strong>Plano Platinum</strong> é restrita e se dará somente através de <strong>convites pessoais gerados por Link disponibilizado pela XPUNTO</strong>, o qual define os termos e condições específicas para tal adesão.</li>
                 </ul>
             </li>
+            -->
         </ol>
-        <p>A disponibilidade de categorias e funcionalidades pode variar entre os planos e está sujeita a alterações, com aviso prévio aos <strong>Usuários</strong> em caso de modificações substanciais que afetem os planos pagos. As assinaturas dos planos pagos (<strong>Basic, Premium, Gold e Platinum</strong>) são gerenciadas e canceladas diretamente pelo <strong>Usuário dentro do aplicativo XPUNTO</strong>, conforme detalhado no <strong>Item XIV (Das Assinaturas Auto-Renováveis)</strong> deste Acordo de Utilização.</p>
+        <p>A disponibilidade de categorias e funcionalidades pode variar entre os planos e está sujeita a alterações, com aviso prévio aos <strong>Usuários</strong> em caso de modificações substanciais que afetem os planos pagos. As assinaturas dos planos pagos (<strong>Basic, Premium, Gold</strong>) são gerenciadas e canceladas diretamente pelo <strong>Usuário dentro do aplicativo XPUNTO</strong>, conforme detalhado no <strong>Item XIV (Das Assinaturas Auto-Renováveis)</strong> deste Acordo de Utilização.</p>
 
         <h2>VI. DAS OBRIGAÇÕES DO USUÁRIO:</h2>
         <p><strong>6.1.</strong> O <strong>Usuário</strong> se responsabiliza pela veracidade das informações pessoais que transmite à plataforma <strong>XPUNTO</strong>.</p>
@@ -216,7 +216,7 @@
         <h2>IX. DO USO DE DADOS E TECNOLOGIAS DE RASTREAMENTO:</h2>
         <p><strong>9.1.</strong> A <strong>XPUNTO</strong> utiliza tecnologias padrão do mercado, como <strong>cookies e outros identificadores de dispositivo</strong>, com o objetivo principal de aprimorar a sua experiência na plataforma, analisar o desempenho do aplicativo e entender como nossos serviços são utilizados. Essas ferramentas nos ajudam a melhorar continuamente as funcionalidades, oferecer um serviço mais personalizado e garantir a segurança.</p>
         <p><strong>9.2.</strong> Nosso compromisso é com a sua privacidade. A coleta e o tratamento desses dados são realizados de forma a respeitar rigorosamente a sua individualidade e o sigilo de suas interações pessoais. Não utilizamos essas tecnologias para monitorar conversas privadas ou "bisbilhotar" a vida de nossos usuários. As informações essenciais que utilizamos para conectar pessoas com interesses mútuos são aquelas que você nos fornece voluntariamente ao cadastrar seus interesses e perfil.</p>
-        <p><strong>9.3.</strong> Para informações detalhadas sobre quais dados coletamos, como os utilizamos, com quem podemos compartilhá-los (sempre com o devido propósito e base legal) e quais são seus direitos como titular dos dados, por favor, consulte nossa <a href="https://sergiodellerba.github.io/xpunto-txt-politica-privacidade/" ><strong>Política de Privacidade (LGPD)</strong></a>. Disponível no seu Perfil do <strong>XPUNTO</strong> ou em nosso site.</p>
+        <p><strong>9.3.</strong> Para informações detalhadas sobre quais dados coletamos, como os utilizamos, com quem podemos compartilhá-los (sempre com o devido propósito e base legal) e quais são seus direitos como titular dos dados, por favor, consulte nossa <a href="https://sergiodellerba.github.io/xpunto-txt-politica-privacidade/" target="_blank"><strong>Política de Privacidade (LGPD)</strong></a>. Disponível no seu Perfil do <strong>XPUNTO</strong> ou em nosso site.</p>
 
         <h2>X. DA PROPRIEDADE INTELECTUAL E USO INDEVIDO DO APP:</h2>
         <p><strong>10.1.</strong> O <strong>Xpunto Busca de Interesses Mútuos</strong> é o proprietário de todos os direitos relativos à <strong>Marca XPUNTO</strong>, título e serviços patenteados oferecidos através de seu app, <strong>não autorizando a reprodução, transmissão, exploração ou qualquer uso, comercial ou pessoal, do conteúdo do app.</strong></p>
@@ -235,7 +235,7 @@
         <p><strong>13.4.</strong> Caso o <strong>Usuário</strong> não concorde com determinada cláusula deste Acordo, e obtenha judicialmente a nulidade da mesma, os demais dispositivos não serão prejudicados e permanecerão em vigor.</p>
 
         <h2>XIV. DA ASSINATURA AUTO-RENOVÁVEL:</h2>
-        <p><strong>14.1.</strong> A <strong>XPUNTO</strong> oferece assinaturas auto-renováveis para seus <strong>planos pagos (Basic, Premium, Gold e Platinum)</strong>, que podem ser adquiridas <strong>diretamente no app XPUNTO via GATEWAY da Stripe, para ambas as plataformas iOS e Android.</strong></p>
+        <p><strong>14.1.</strong> A <strong>XPUNTO</strong> oferece assinaturas auto-renováveis para seus <strong>planos pagos (Basic, Premium, Gold)</strong>, que podem ser adquiridas <strong>diretamente no app XPUNTO via GATEWAY da Stripe, para ambas as plataformas iOS e Android.</strong></p>
         <p><strong>14.2.</strong> A assinatura é renovada automaticamente ao final de cada período (mensal, trimestral, semestral ou anual, conforme opção selecionada no momento da contratação), a menos que seja cancelada pelo <strong>Usuário</strong> pelo menos 24 horas antes do fim do período de cobrança atual.</p>
         <p><strong>14.3.</strong> O pagamento da renovação será cobrado automaticamente na sua conta <strong>pelo GATEWAY Stripe</strong> na data de renovação, utilizando o método de pagamento cadastrado.</p>
         <p><strong>14.4. Procedimentos de Gerenciamento e Cancelamento de Assinaturas:</strong><br>
@@ -255,7 +255,7 @@
         <p><strong>Para quaisquer dúvidas, solicitações de suporte, informações adicionais ou para exercer seus direitos, o usuário pode entrar em contato com o XPUNTO através do nosso canal "Fale Conosco". Este canal está disponível:</strong></p>
         <ul>
             <li><strong>a. Dentro do Aplicativo XPUNTO:</strong> Acesse a seção de "Fale Conosco" diretamente no aplicativo.</li>
-            <li><strong>b. Em Nosso Site Oficial:</strong> Através do endereço <a href="https://xpunto.com" >xpunto.com</a>, na seção designada para contato.</li>
+            <li><strong>b. Em Nosso Site Oficial:</strong> Através do endereço <a href="https://xpunto.com" target="_blank">xpunto.com</a>, na seção designada para contato.</li>
         </ul>
         <p><strong>Nosso objetivo é responder a todas as solicitações de forma eficiente e em tempo hábil.</strong></p>
 
